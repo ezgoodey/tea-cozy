@@ -1,0 +1,150 @@
+/* Universal Styles */
+
+body {
+  margin: 0;
+  font-family: "Helvetica", sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+}
+
+.logo {
+  padding-left: 10px;
+  flex-grow: 1;
+}
+
+.logo img {
+  height: 50px;
+}
+
+/* Main Content Container */
+
+.content {
+  justify-content: center;
+  text-align: center;
+  padding-top: 69px;
+}
+
+/* Mission */
+
+.mission-div {
+  justify-content: center;
+  display: flex;
+}
+
+#mission {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("../images/img-mission-background.jpg");
+  background-size: cover;
+  width: 1200px;
+  height: 700px;
+}
+
+.banner {
+  background-color: black;
+}
+
+/* Featured Items */
+
+.featured-tea-div {
+  justify-content: center;
+  display: flex;
+}
+
+#featured-tea {
+  width: 1000px;
+}
+
+.featured-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.featured {
+  margin: 15px;
+}
+
+.featured img {
+  width: 300px;
+  height: 200px;
+}
+
+.featured h4 {
+  margin-top: 10px;
+}
+
+/* Location */
+
+.location-div {
+  justify-content: center;
+  display: flex;
+}
+
+#location {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("../images/img-locations-background.jpg");
+  background-size: cover;
+  width: 1200px;
+  height: 500px;
+}
+
+#location h2 {
+  margin-bottom: 15px;
+}
+
+.location-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.loc {
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin: 20px
+}
+
+/* Footer */
+
+footer {
+  align-items: center;
+  width: 100%;
+  height: 200px;
+}
+
+#copyright {
+  padding-left: 20px;
+  text-align: left;
+}
